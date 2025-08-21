@@ -38,9 +38,9 @@ jobs:
       - name: Argocd app sync
         shell: bash
         run: 
-          ./argocd login argocd-server.argocd \
+          sudo ./argocd login argocd-server.argocd \
             --insecure \
             --grpc-web \
             --username admin \
             --password ${{ secrets.ARGOCD_PASSWORD }}
-          ./argocd sync app python-app
+          sudo ./argocd sync app python-app
