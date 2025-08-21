@@ -22,4 +22,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: erangel/python-app:${GITHUB_SHA::6}
+          tags: erangel/python-app:${{ github.sha }}
