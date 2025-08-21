@@ -29,7 +29,6 @@ jobs:
     needs: ci
     runs-on: self-hosted
     steps:
-
       - name: Install argocd
         shell: bash
         run: 
