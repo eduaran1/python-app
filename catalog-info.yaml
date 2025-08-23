@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: pyton-app
+  name: python-app
   description: Python aoo displays time.
   annotations:
     github.com/project-slug: eduaran1/python-app
