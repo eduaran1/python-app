@@ -5,6 +5,7 @@ metadata:
   description: Python aoo displays time.
   annotations:
     github.com/project-slug: eduaran1/python-app
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: serice
   lifecycle: experimental
