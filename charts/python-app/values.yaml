@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: erangel/python-app
   pullPolicy: IfNotPresent
-  tag: e92d5a
+  tag: 1f1147
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
